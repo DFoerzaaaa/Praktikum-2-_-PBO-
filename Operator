@@ -1,0 +1,6 @@
+public class Operator { // Mendefinisikan kelas publik bernama Operator
+    public static void main(String[] args) { // Metode utama tempat eksekusi program dimulai
+        double x = 92.98; // Mendeklarasikan dan menginisialisasi variabel x dengan nilai tipe double 92.98
+        int nx = (int) Math.round(x); // Menggunakan metode Math.round untuk membulatkan nilai x, kemudian mengubahnya menjadi tipe int dan menyimpannya ke dalam variabel nx
+    } // Akhir dari metode main
+}
