@@ -1,0 +1,13 @@
+public class Operator2 { // Mendefinisikan kelas publik bernama Operator2
+    static short methodOne(long l) { // Metode statis bernama methodOne yang menerima parameter tipe long dan mengembalikan nilai tipe short
+        int i = (int) l; // Mengonversi nilai long l menjadi tipe int dan menyimpannya dalam variabel i
+        return (short)i; // Mengonversi nilai int i menjadi tipe short dan mengembalikannya
+    }
+
+    public static void main(String[] args) { // Metode utama tempat eksekusi program dimulai
+        double d = 10.25; // Mendeklarasikan dan menginisialisasi variabel d dengan nilai tipe double 10.25
+        float f = (float) d; // Mengonversi nilai d menjadi tipe float dan menyimpannya dalam variabel f
+        byte byteResult = (byte) methodOne((long) f); // Mengonversi nilai float f menjadi tipe long, kemudian memanggil methodOne dengan argumen tersebut, dan hasilnya dikonversi menjadi tipe byte
+        System.out.println(byteResult); // Mencetak nilai byteResult ke konsol
+    }
+}
