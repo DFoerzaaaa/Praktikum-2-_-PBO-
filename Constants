@@ -1,0 +1,9 @@
+public class Constants { // Mendefinisikan kelas publik bernama Constants
+    public static void main(String[] args) { // Metode utama tempat eksekusi program dimulai
+        final double CM_PER_INCH = 2.54; // Mendeklarasikan konstanta untuk jumlah sentimeter per inci
+        double paperWidth = 8.5; (Mendeklarasikan dan menginisialisasi lebar kertas dalam inci)
+        double paperHeight = 11; // Mendeklarasikan dan menginisialisasi tinggi kertas dalam inci
+        System.out.println("Paper size in centimeters: " + // Mencetak ukuran kertas dalam sentimeter
+                paperWidth * CM_PER_INCH + " by " + paperHeight * CM_PER_INCH);
+    }
+}
